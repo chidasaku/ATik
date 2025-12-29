@@ -1,0 +1,27 @@
+{
+  "id": "template_ranking",
+  "name": "ランキング形式",
+  "description": "TOP3やベスト5など、順位付けで興味を引く形式",
+  "structure": {
+    "hook": "【フック】{topic} TOP{count}！",
+    "body": [
+      "【{count}位】{item_last}",
+      "...",
+      "【1位】{item_first}"
+    ],
+    "cta": "【CTA】他にもあったらコメントで教えて！"
+  },
+  "variables": {
+    "topic": "ランキングのテーマ",
+    "count": "ランキング数（3-5推奨）",
+    "item_first": "1位の項目",
+    "item_last": "最下位の項目"
+  },
+  "genres": ["退職系", "AI系"],
+  "duration": "30-60秒",
+  "tips": [
+    "1位は最後まで引っ張る",
+    "意外性のある順位だと議論が生まれる",
+    "「これが入ってない！」というコメントを狙う"
+  ]
+}

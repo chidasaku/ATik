@@ -1,0 +1,28 @@
+{
+  "id": "template_vs",
+  "name": "VS形式",
+  "description": "2つの選択肢を比較する形式。議論を呼びやすくエンゲージメント高め",
+  "structure": {
+    "hook": "【フック】{topic_a} vs {topic_b}、どっちが正解？",
+    "body": [
+      "【{topic_a}派】{point_a}",
+      "【{topic_b}派】{point_b}"
+    ],
+    "conclusion": "【結論】{conclusion}",
+    "cta": "【CTA】どっち派？コメントで教えて！"
+  },
+  "variables": {
+    "topic_a": "比較対象A",
+    "topic_b": "比較対象B",
+    "point_a": "Aの主張・メリット",
+    "point_b": "Bの主張・メリット",
+    "conclusion": "結論や意外な事実"
+  },
+  "genres": ["退職系", "AI系"],
+  "duration": "30-60秒",
+  "tips": [
+    "どちらが正解か最後まで引っ張る",
+    "コメント欄で議論を促す",
+    "意外な結論だとシェアされやすい"
+  ]
+}
